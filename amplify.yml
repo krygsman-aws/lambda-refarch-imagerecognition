@@ -32,7 +32,10 @@ frontend:
       commands:
         - cd src/react-frontend
         - npm install
-        - npm update
+        - npm install @aws-amplify/cache
+        - npm install @aws-amplify/analytics
+        - npm install @aws-amplify/interactions
+        - npm install @aws-amplify/xr
     build:
       commands:
         - npm run build
