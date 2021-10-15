@@ -31,7 +31,7 @@ frontend:
     preBuild:
       commands:
         - cd src/react-frontend
-        - npm install
+		- npm install
 		- npx npm-check-updates -i '/@?aws-amplify/' && npm update
     build:
       commands:
